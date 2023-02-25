@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Message Encoder-Decoder</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="tbar">
+    <h1>Message Encoder-Decoder</h1>
+  </section>
+  <div id="main">
+  <textarea id="message" placeholder="Enter Message" rows="10"></textarea>
+  <p id="rcc"></p>
+  <input id="key" type="text" placeholder="Enter key code (optional): 10 characters" maxlength="10">
+  <input type="button" id="mBtn" value="ENCODE" onclick="encoder()">
+  <textarea id="enMsg" rows="10" disabled placeholder="Encoded Message"></textarea>
+  <p id="ecc"></p>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
