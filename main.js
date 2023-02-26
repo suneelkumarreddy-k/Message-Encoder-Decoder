@@ -22,7 +22,7 @@ let noupt="";
 if (pkey.length === 10) {
   for (let prop of fstrng) {
     if (prop != nidf) {
-      noupt += pkey[prop];
+      noupt += pkey[prop]+cmap[prop];
     } else {
       noupt += prop;
     }
