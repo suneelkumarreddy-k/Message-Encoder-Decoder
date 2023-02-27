@@ -38,6 +38,9 @@ textarea {
   resize: none;
 }
 
+textarea:disabled {
+  background-color:#e6e6e6;
+}
 textarea:focus, input[type=text]:focus {
   border: 2px solid #000;
 }
